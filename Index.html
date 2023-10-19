@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="FOOTBALL⚽" content="the overview of this site" />
+    <!--<link rel="stylesheet" type="style/css" href="" />-->
+    <title>FOOTBALL⚽</title>
+    <style>
+      a:visited {
+        color: rgb(241, 190, 8);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
+    <style>
+      table,
+      th,
+      td {
+        border-style: inset;
+        border-color: aqua;
+      }
+    </style>
+    <style>
+      img {
+        float: right;
+      }
+    </style>
+  </head>
+  <body style="background-color: #104f0c">
+    <section>
+      <div>
+        <h1
+          style="
+            font-family: serif;
+            font-size: 70px;
+            text-align: center;
+            color: whitesmoke;
+          "
+        >
+          ⚽FOOTBALL⚽
+        </h1>
+        <img src="photos/football.jpg" alt="Football Picture" />
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2 style="font-family: fantasy; font-size: 40px; color: whitesmoke">
+          Overview:
+        </h2>
+        <p
+          style="
+            font-family: Times New Roman;
+            font-size: 20px;
+            color: whitesmoke;
+          "
+        >
+          On this website we will discuss about FOOTBALL⚽ and we will also give
+          you some useful information about this sport.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2 style="font-family: fantasy; font-size: 40px; color: whitesmoke">
+          General Information:
+        </h2>
+        <table>
+          <caption style="font-family: fantasy; color: whitesmoke">
+            We will highlight the following:
+          </caption>
+          <thead>
+            <tr
+              style="
+                background-color: rgb(202, 123, 58);
+                font-family: fantasy;
+                color: whitesmoke;
+              "
+            >
+              <th>History</th>
+              <th>How to play</th>
+              <th>Legends</th>
+              <th>Premium Information</th>
+              <!--<th>Did you know that..</th>
+              <th>Fun Facts</th>-->
+            </tr>
+          </thead>
+          <tbody
+            style="
+              background-color: rgb(37, 74, 129);
+              font-family: Arial;
+              color: whitesmoke;
+            "
+          >
+            <tr style="text-align: center">
+              <td>origins</td>
+              <td>rules</td>
+              <td rowspan="2">Players who had an impact to the game</td>
+              <!--<td rowspan="4">Interesting Facts</td>-->
+              <td rowspan="4">THE REAL GOAT</td>
+            </tr>
+            <tr style="text-align: center">
+              <td>first rules</td>
+              <td>equipment</td>
+            </tr>
+            <tr style="text-align: center">
+              <td>championships</td>
+              <td>necessities</td>
+              <td rowspan="2">Game Changers</td>
+            </tr>
+            <tr style="text-align: center">
+              <td>glimpse of the past</td>
+              <td>tactics</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <div>
+      <button onclick="showMenu()">
+        <img src="photos/menu.png" alt="menu-photo" width="30" height="30" />
+      </button>
+      <script>
+        function showMenu() {
+          var x = document.getElementById("Links");
+          if (x.style.display == "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+      </script>
+      <!--<img src="photos/menu.png" alt="menu-photo" width="50" height="50" />-->
+      <div id="Links" style="display: none">
+        <nav>
+          <!--<a href="Index.html" target="_self">Overview</a>
+          <br />-->
+          <a href="history.html" target="_self">History</a>
+          <br />
+          <a href="how-to-play.html" target="_self">How to play</a>
+          <br />
+          <a href="legends.html" target="_self">Legends</a>
+          <br />
+          <a href="premium-info.html" target="_self">Premium information</a>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>

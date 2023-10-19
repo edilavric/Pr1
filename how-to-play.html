@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Rules" content="how to play the game" />
+    <title>HOW TO PLAY</title>
+    <style>
+      a:visited {
+        color: rgb(241, 190, 8);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
+    <style>
+      img {
+        float: right;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(115, 87, 155)">
+    <section>
+        <div>
+          <h1
+            style="
+              font-family: serif;
+              font-size: 70px;
+              text-align: center;
+              color: whitesmoke;
+            "
+          >
+          ⚽HOW TO PLAY THE GAME⚽
+          </h1>
+        </div>
+      </section>
+      <section style="text-align: center;">
+        <div>
+          <h2 style="font-family: fantasy; font-size: 40px; color: whitesmoke">
+            Simple Rules:
+          </h2>
+         <video width="400" controls>
+            <source src="videos/football_rules.mp4" type="video/mp4">
+         </video>
+         <details style="font-size: 40px;">
+            <summary>
+            <a href="https://www.thefa.com/football-rules-governance/lawsandrules/laws/football-11-11/law-11---offside" 
+            target="_blank">Offside Rule</a></summary></details>
+        </div>
+      </section>
+      <br>
+      <section style="text-align: left;">
+        <div>
+          <h3 style="font-family: fantasy; font-size: 40px; color: whitesmoke">
+            Equipment:
+          </h3>
+          <img src="photos/long-shirt.jpg" alt="long-shirt" width="300" height="200" />
+      <img src="photos/short-shirt.jpg" alt="short-shirt  " width="300" height="200" />
+      <img src="photos/socks.jpg" alt="socks " width="300" height="200" />
+      <img src="photos/footwear.jpg" alt="footwear " width="200" height="200" />
+
+          
+         <ul style="font-family: fantasy; font-size: 40px; color: whitesmoke">
+            <li>long or short sleeve shirt</li>
+            <li>shorts</li>
+            <li>socks</li>
+            <li>footwear</li>
+         </ul>
+        </div>
+      </section>
+     
+      <section>
+        <h4 style="font-family: fantasy; font-size: 40px; color: whitesmoke">
+         Necessities:   
+        </h4>
+        <img src="photos/field.jpg" alt="field" width="300" height="200" />
+      <img src="photos/ball.jpg" alt="ball " width="300" height="200" />
+      <img src="photos/friends.jpg" alt="friends " width="300" height="200" />
+        <ul style="font-family: fantasy; font-size: 40px; color: whitesmoke">
+            <li>field:<ul><li>goals</li><li>lines</li><li>nets</li></ul></li>
+            <li>ball</li>
+            <li>friends</li>
+        </ul>
+      </section>
+      <section>
+        <h4 style="font-family: fantasy; font-size: 40px; color: whitesmoke">
+         Tactics:
+        </h4>
+        <p style="font-family: Arial; font-size: 18px; color: whitesmoke">
+            To improve your football skills you will need to have good connection with your 
+            teammates and also a good formation to know where  to stay on the field and last but not least a good tactic.
+        </p>
+        <details style="font-size: 40px;">
+            <summary>
+            <a href="https://www.coachesvoice.com/cv/formations-football-tactics-explained-best-most-used/" 
+            target="_blank">Tactics</a></summary></details>
+      </section>
+  <div>
+    <button onclick="showMenu()">
+      <img src="photos/menu.png" alt="menu-photo" width="30" height="30" />
+    </button>
+    <script>
+      function showMenu() {
+        var x = document.getElementById("Links");
+        if (x.style.display == "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+    <div id="Links" style="display: none">
+      <nav>
+        <a href="Index.html" target="_self">Overview</a>
+        <br />
+        <a href="history.html" target="_self">History</a>
+        <br />
+        <!--<a href="how-to-play.html" target="_self">How to play</a>
+            <br />-->
+        <a href="legends.html" target="_self">Legends</a>
+        <br />
+          <a href="premium-info.html" target="_self">Premium information</a>
+      </nav>
+    </div>
+  </div>
+</html>

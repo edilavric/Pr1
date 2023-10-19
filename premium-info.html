@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Legends" content="legends who change the game" />
+    <title>PREMIUM INFORMATION</title>
+    <style>
+      a:visited {
+        color: rgb(241, 190, 8);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
+    <style>
+      img {
+        float: right;
+      }
+    </style>
+  </head>
+  <body style="background-color: rgb(126, 21, 21)">
+    <div>
+      <h1
+        style="
+          font-family: fantasy;
+          font-size: 40px;
+          color: whitesmoke;
+          text-align: center;
+        "
+      >
+        🐐MESSI THE GOAT🐐
+      </h1>
+    </div>
+    <img src="photos/Messi-goat.jpg" alt="MESSI" width="1500" height="900" />
+    <div>
+      <button onclick="showMenu()">
+        <img src="photos/menu.png" alt="menu-photo" width="30" height="30" />
+      </button>
+      <script>
+        function showMenu() {
+          var x = document.getElementById("Links");
+          if (x.style.display == "none") {
+            x;
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+      </script>
+      <div id="Links" style="display: none">
+        <nav>
+          <a href="Index.html" target="_self">Overview</a>
+          <br />
+          <a href="history.html" target="_self">History</a>
+          <br />
+          <a href="how-to-play.html" target="_self">How to play</a>
+          <br />
+          <a href="legends.html" target="_self">Legends</a>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
